@@ -1,0 +1,24 @@
+# Dataset files
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated reports
+reports/figures/*
+!reports/figures/.gitkeep
